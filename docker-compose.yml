@@ -25,7 +25,7 @@ services:
       - MYSQL_USER=root
       - MYSQL_PASS=123.456
   
-  # Data persistence service layer
+  # ##Data persistence service layer
   mysql:
     image: mysql:5.7.20
     volumes:
